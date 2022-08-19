@@ -16,8 +16,8 @@ The Game of Life is an interesting yet simulation of the evolution of living ce
 
 ## Status
 
--Target W10/W11 UWP: ready
--Target W10M: in progress
+- Target W10/W11 UWP: ready
+- Target W10M: in progress
 
 
 ## Article ( Best Multi-platform How-To / DIY ))
