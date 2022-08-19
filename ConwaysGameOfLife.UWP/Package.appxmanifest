@@ -8,7 +8,7 @@
 
   <Identity
     Name="ConwaysGameOfLife-ed0e4"
-    Publisher="CN=marti"
+    Publisher="CN=media"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="e788791f-1bb7-4d9c-aa37-73dac2168587" PhonePublisherId="00000000-aa36-aa36-aa37-608005007700"/>

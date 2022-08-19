@@ -11,7 +11,7 @@
     <Grid
         Padding="12"
         Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-        RowSpacing="8">
+        >
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
@@ -25,8 +25,6 @@
             TextAlignment="Center" />
         <Grid
             Grid.Row="1"
-            ColumnSpacing="8"
-            RowSpacing="8"
             HorizontalAlignment="Left">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
@@ -52,7 +50,7 @@
                 Click="{x:Bind NextGeneration}"
                 Content="Next generation" />
 
-            <StackPanel Grid.Row="1" Spacing="4">
+            <StackPanel Grid.Row="1">
               <TextBlock Text="Board size" />
               <controls:NumberBox
                   x:Name="BoardSizeNumberBox"                                   
@@ -84,7 +82,5 @@
             SizeChanged="{x:Bind LayoutGameBoard}">
             <Canvas x:Name="GameCanvas" />
         </Border>
-
-      <HyperlinkButton Grid.Row="3" Content="Icons by Icons8.com" NavigateUri="http://www.icons8.com" HorizontalAlignment="Center" />
     </Grid>
 </Page>
