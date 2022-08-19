@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="a6403253-f800-48e1-a10c-fc15856ed0e4"
+    Name="ConwaysGameOfLife-ed0e4"
     Publisher="CN=marti"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="eb88091f-1bb2-4d9c-aa36-d3dac2168584" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="e788791f-1bb7-4d9c-aa37-73dac2168587" PhonePublisherId="00000000-aa36-aa36-aa37-608005007700"/>
 
   <Properties>
     <DisplayName>ConwaysGameOfLife</DisplayName>
@@ -43,6 +43,10 @@
           </uap:ShowNameOnTiles>
         </uap:DefaultTile >
         <uap:SplashScreen Image="Assets\SplashScreen.png"  BackgroundColor="#1F1F1F"/>
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape"/>
+          <uap:Rotation Preference="portrait"/>
+          <uap:Rotation Preference="landscapeFlipped"/></uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>

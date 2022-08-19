@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32804.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{5B126197-30AC-4271-ADE3-03FA2DAA5C79}"
 EndProject
@@ -26,17 +26,6 @@ EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ConwaysGameOfLife.Shared", "ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.shproj", "{6279C845-92F8-4333-AB99-3D213163593C}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{177dfc94-0a9e-4a7d-96e1-5ec8a74369fa}*SharedItemsImports = 5
-		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{2847b2a6-7d57-4fd4-84db-9938c9957d4e}*SharedItemsImports = 4
-		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{336b6c70-7c0a-45e4-bf48-7d593585113d}*SharedItemsImports = 4
-		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{505fb512-86fe-4e77-b363-7506de68cefa}*SharedItemsImports = 4
-		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
-		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{75b2bbbd-8e5a-47ed-96cd-cf77e758c517}*SharedItemsImports = 5
-		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{a6403253-f800-48e1-a10c-fc15856ed0e4}*SharedItemsImports = 4
-		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{ae2c84a1-44d7-4ec1-b272-65556b510935}*SharedItemsImports = 5
-		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{b50206a3-b9de-4c25-8910-cf2b3cccd8f0}*SharedItemsImports = 5
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
 		Ad-Hoc|ARM = Ad-Hoc|ARM
@@ -592,9 +581,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{505FB512-86FE-4E77-B363-7506DE68CEFA} = {5B126197-30AC-4271-ADE3-03FA2DAA5C79}
-		{336B6C70-7C0A-45E4-BF48-7D593585113D} = {5B126197-30AC-4271-ADE3-03FA2DAA5C79}
-		{A6403253-F800-48E1-A10C-FC15856ED0E4} = {5B126197-30AC-4271-ADE3-03FA2DAA5C79}
 		{B50206A3-B9DE-4C25-8910-CF2B3CCCD8F0} = {5B126197-30AC-4271-ADE3-03FA2DAA5C79}
 		{2847B2A6-7D57-4FD4-84DB-9938C9957D4E} = {5B126197-30AC-4271-ADE3-03FA2DAA5C79}
 		{8EEBE044-46FA-4AB0-9892-4879AD388296} = {5B126197-30AC-4271-ADE3-03FA2DAA5C79}
@@ -604,5 +590,16 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF3D16FA-E9B1-4300-BC75-A61A20F75C36}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{177dfc94-0a9e-4a7d-96e1-5ec8a74369fa}*SharedItemsImports = 5
+		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{2847b2a6-7d57-4fd4-84db-9938c9957d4e}*SharedItemsImports = 4
+		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{336b6c70-7c0a-45e4-bf48-7d593585113d}*SharedItemsImports = 4
+		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{505fb512-86fe-4e77-b363-7506de68cefa}*SharedItemsImports = 4
+		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{75b2bbbd-8e5a-47ed-96cd-cf77e758c517}*SharedItemsImports = 5
+		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{a6403253-f800-48e1-a10c-fc15856ed0e4}*SharedItemsImports = 4
+		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{ae2c84a1-44d7-4ec1-b272-65556b510935}*SharedItemsImports = 5
+		ConwaysGameOfLife.Shared\ConwaysGameOfLife.Shared.projitems*{b50206a3-b9de-4c25-8910-cf2b3cccd8f0}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
