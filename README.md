@@ -24,6 +24,11 @@ The Game of Life is an interesting yet simulation of the evolution of living ce
 
 https://blog.mzikmund.com/2020/12/game-of-life-in-uno-platform/
 
+## References
+This project uses code from the following project:
+
+<a href="https://github.com/MartinZikmund/Uno.ConwaysGameOfLife">Game of Life in Uno Platform by Martin Zikmund</a>
+
 
 ## License
 
