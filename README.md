@@ -20,7 +20,7 @@ The Game of Life is an interesting yet simulation of the evolution of living ce
 -Target W10M: in progress
 
 
-## Article
+## Article ( Best Multi-platform How-To / DIY ))
 
 https://blog.mzikmund.com/2020/12/game-of-life-in-uno-platform/
 
