@@ -16,8 +16,8 @@ The Game of Life is an interesting yet simulation of the evolution of living ce
 
 ## Status
 
-- Target W10/W11 UWP: ready
-- Target W10M: in progress
+- Target W10/W11 UWP: all of my experiments passed;
+- Target W10M: ready (v1.0 released)
 
 
 ## Article ( Best Multi-platform How-To / DIY ))
@@ -27,7 +27,7 @@ https://blog.mzikmund.com/2020/12/game-of-life-in-uno-platform/
 
 ## License
 
-Licensed under MIT, feel free to fork, modify and play with the project however you like! But I will appreciate if you share creations with me on [Twitter](https://www.twitter.com/mzikmunddev) 😉.
+Licensed under MIT, feel free to fork, modify and play with the project however you like! 
 
 ## .
 AS IS. No support. RnD only.
